@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Weather App</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    .card {
+        width: 300px;
+        margin: 0;
+        padding: 10px;
+       
+    }
+
+    .inputarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        text-transform: capitalize;
+    }
+
+    .button {
+        background-color: lightskyblue;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-top: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .button i {
+        margin-right: 5px;
+    }
+</style>
+</head>
+<body>
+    <div class="card">
+        <form action="/" method="post">
+            <input class="inputarea" id="cityInput" type="text" name="cityName" placeholder="City Name" autocomplete="off">
+            <button class="button" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+    </div>
+</body>
+</html>
